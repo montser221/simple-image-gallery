@@ -7,7 +7,6 @@ for (let index = 0; index < images.length; index++) {
     img.setAttribute('class','image');
     imgCon.appendChild(img);
 }
-// document.body.append(imgCon)
 
 const _img = document.querySelectorAll('img.image'),
         mainImg = document.querySelector('#main-img');
@@ -36,7 +35,4 @@ dark.addEventListener('click',function(){
         this.classList.add('dark');
         console.log(this.getAttribute('class') + "light");
     }
-
-    
-    console.log('dark clicked');
 });
